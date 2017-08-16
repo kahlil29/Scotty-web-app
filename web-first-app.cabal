@@ -33,6 +33,11 @@ executable web-first-app-exe
                      , wreq
                      , lens
                      , string-conv
+                     , lucid
+                     , themoviedb
+                     , text
+                     , time-locale-compat
+                     , time
   default-language:    Haskell2010
 
 test-suite web-first-app-test
